@@ -60,3 +60,22 @@ c1 <- c(10:100)
 (c1)^3+4*(c1)^2
 
 #   (b) \sum\limits_{i=1}^{25}(\frac{2^i}{i}+\frac{3^i}{i^2})
+
+d1 <- c(1:25)
+((2^(d1))/(d1))+((3^(d1))/(d1)^2)
+
+# 5) Use the function paste to create vectors:
+
+#   (a) ("label 1", "label 2", ....., "label 30")
+
+paste("label",1:30,sep=" ")
+
+#   (b) ("fn1", "fn2", ..., "fn30")
+
+paste("fn",1:30,sep="")
+
+# 6) Execute the following lines which create two vectors of random integers which are chosen with replacement from the integers 0, 1, . . . , 999. Both vectors have length 250.
+
+set.seed(50)
+xVec <- sample(0:999,250,replace=True)
+yVec <- sample(0:999,250,replace=True)
