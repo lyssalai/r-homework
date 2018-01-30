@@ -20,10 +20,17 @@ rep(tmp, 10)
 
     (f) (4, 6, 3, 4, 6, 3, . . . , 4, 6, 3, 4) where there are 11 occurrences of 4, 10 occurrences of 6 and 10 occurrences of 3.
 c(rep(tmp,10),4)
+<<<<<<< HEAD
 
     (g) (4, 4, . . . , 4, 6, 6, . . . , 6, 3, 3, . . . , 3) where there are 10 occurrences of 4, 20 occurrences of 6 and 30 occurrences of 3.
    rep(tmp, times=c(10,20,30))
 
+=======
+
+    (g) (4, 4, . . . , 4, 6, 6, . . . , 6, 3, 3, . . . , 3) where there are 10 occurrences of 4, 20 occurrences of 6 and 30 occurrences of 3.
+   rep(tmp, times=c(10,20,30))
+
+>>>>>>> ffb8b8fa13a184e835a9161ed645ff4f38c570e7
 2) Create a vector of the values of (e^x)(cos(x)) at x = 3, 3.1, 3.2, . . . , 6.
 
 x1 <- seq(3,6,by=.1)
@@ -85,6 +92,7 @@ head(h1,n=10)
 7) This question uses the vectors xVec and yVec created in the previous question and the functions sort,
 order, mean, sqrt, sum, and abs.
 
+<<<<<<< HEAD
     (a) Pick out the values in yVec which are > 600.
 yVec[which(yVec>600)]
     (b) What are the index positions in yVec of the values which are > 600?
